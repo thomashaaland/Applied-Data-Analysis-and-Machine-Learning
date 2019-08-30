@@ -1,0 +1,6 @@
+from numpy import *
+from numpy.random import randint, randn
+from time import time
+
+def jackknife(data, stat):
+    n = len(data);t = zeros(n); inds = arange(n); t0 = time()
