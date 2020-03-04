@@ -1,9 +1,0 @@
-import pandas as pd
-from IPython.display import display
-data = {'First Name': ["Frodo", "Bilbo", "Aragorn II", "Samwise"],
-        'Last Name': ["Baggins", "Baggins", "Elessar", "Gamgee"],
-        'Place of birth': ["Shire", "Shire", "Eriador", "Shire"],
-        'Date of Birth T.A.': [2968, 2890, 2931, 2980]
-        }
-data_pandas = pd.DataFrame(data)
-display(data_pandas)
