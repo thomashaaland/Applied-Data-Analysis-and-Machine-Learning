@@ -1,6 +1,0 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.model_selection import KFold
-from sklearn.linear_model import Ridge
-from sklearn.model_selection import cross_val_score
-from sklearn.preprocessing import PolynomialFeatures
